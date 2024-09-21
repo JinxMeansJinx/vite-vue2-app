@@ -24,6 +24,11 @@ const routes = [
         name: 'Demo',
         component: () => import('../views/demo.vue')
       },
+      {
+        path: 'submit-button',
+        name: 'submit-button',
+        component: () => import('@/components/SubmitButton.vue')
+      },
     ]
 
   },
